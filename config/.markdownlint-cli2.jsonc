@@ -1,3 +1,6 @@
 {
-  "config": {}
+  "config": {
+    "MD034": false, // GitHub リンク表示用
+    "MD040": false  // コードブロックの言語指定なしを許可
+  }
 }
