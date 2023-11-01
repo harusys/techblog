@@ -1,0 +1,11 @@
+version: 1
+rules:
+  - expected: GitHub
+    pattern:
+      - Github
+      - github
+  - expected: Go
+    pattern:
+      - golang
+      - Golang
+      - GoLang

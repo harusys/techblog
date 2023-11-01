@@ -1,0 +1,15 @@
+# https://github.com/textlint/textlint-filter-rule-comments
+filters:
+  comments: true
+
+rules:
+  # https://github.com/textlint-rule/textlint-rule-prh
+  prh:
+    rulePaths:
+      - "prh.yml"
+
+  # https://github.com/textlint-ja/textlint-rule-preset-ja-technical-writing
+  preset-ja-technical-writing: true
+
+  # https://github.com/textlint-rule/textlint-rule-no-dead-link
+  no-dead-link: true
