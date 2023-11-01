@@ -1,10 +1,8 @@
-today=$(shell date '+%Y%m%d')
-
 article: check-arg
-	npx zenn new:article --slug $(today)_$(title) --title $(title)
+	npx zenn new:article --slug $(title) --title $(title)
 
 book: check-arg
-	npx zenn new:book --slug $(today)_$(title) --title $(title)
+	npx zenn new:book --slug $(title) --title $(title)
 
 check-arg:
 ifndef title
