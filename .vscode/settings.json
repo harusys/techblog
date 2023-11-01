@@ -10,5 +10,7 @@
     "textlint.configPath": "config/.textlintrc.yml",
     "textlint.languages": [
         "markdown",
-    ]
+    ],
+    "markdownlint.config": {
+    }
 }

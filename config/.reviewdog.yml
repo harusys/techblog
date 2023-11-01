@@ -3,7 +3,7 @@ runner:
     cmd: npx textlint -c config/.textlintrc -f checkstyle 'articles/**.md'
     format: checkstyle
   markdownlint:
-    cmd: npx markdownlint-cli2 'articles/**.md'
+    cmd: npx markdownlint-cli2 --config config/.markdownlint-cli2.jsonc 'articles/**.md'
     errorformat:
       - "%f:%l:%c %m"
       - "%f:%l %m"
