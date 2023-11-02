@@ -1,5 +1,5 @@
 ---
-title: "Zenn の Markdown 記法一覧"
+title: "Zenn の Markdown 記法エッセンス"
 emoji: "👩‍💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
