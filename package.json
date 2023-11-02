@@ -7,6 +7,7 @@
   "scripts": {},
   "dependencies": {
     "markdownlint-cli2": "^0.10.0",
+    "prettier": "^3.0.3",
     "textlint": "^13.3.3",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-no-dead-link": "^5.1.2",
