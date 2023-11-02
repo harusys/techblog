@@ -11,7 +11,7 @@ published: false
 ## 要点
 
 - アクセシビリティの観点から `見出し2` から始める。
-- 画像の表示が大きすぎる場合は、URL の後に半角スペースを空けて `=○○x` と記述すると、画像の幅を px 単位で指定できます。
+- 画像の表示が大きすぎる場合は、URLの後に半角スペースを空けて `=○○x` と記述すると、画像の幅をpx単位で指定できます。
 
 ```
 ![altテキスト](https://画像のURL =250x)
@@ -32,14 +32,14 @@ const great = () => {
 }
 ```
 
-- diff と言語名を半角スペース区切りで指定することで、diff のシンタックスハイライトが有効になります。
+- diffと言語名を半角スペース区切りで指定することで、diffのシンタックスハイライトが有効になります。
 
 ```diff js
 +    const foo = bar.baz([1, 2, 3]) + 1;
 -    let foo = bar.baz([1, 2, 3]);
 ```
 
-- GitHub 上のファイルへの URL またはパーマリンクだけの行を作成すると、その部分に GitHub の埋め込みが表示されます。
+- GitHub上のファイルへのURLまたはパーマリンクだけの行を作成すると、その部分にGitHubの埋め込みが表示されます。
 
 https://github.com/octocat/Hello-World/blob/master/README
 
@@ -73,7 +73,7 @@ https://github.com/octocat/Hello-World/blob/master/README
 :::
 ```
 
-:::details タイトル
+:::detailsタイトル
 表示したい内容
 :::
 
@@ -93,7 +93,7 @@ https://github.com/octocat/Hello-World/blob/master/README
 ::::
 ```
 
-::::details タイトル
+::::detailsタイトル
 :::message
 ネストされた要素
 :::
