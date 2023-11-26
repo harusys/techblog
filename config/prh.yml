@@ -9,3 +9,7 @@ rules:
       - golang
       - Golang
       - GoLang
+  - expected: Google Cloud
+    pattern:
+      - GCP
+      - gcp
