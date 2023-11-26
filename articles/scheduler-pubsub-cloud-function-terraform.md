@@ -4,7 +4,9 @@ emoji: "❄️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics:
   ["googlecloud", "cloudscheduler", "pubsub", "cloudfunctions", "terraform"]
-published: false
+publication_name: "zozotech"
+published: true
+published_at: 2023-12-03 00:00
 ---
 
 ## はじめに
