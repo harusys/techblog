@@ -34,7 +34,6 @@ type Body struct {
 
 // helloPubSub consumes a CloudEvent message and extracts the Pub/Sub message.
 func helloPubSub(ctx context.Context, e event.Event) error {
-	// コメント追加
 	var msg MessagePublishedData
 	if err := e.DataAs(&msg); err != nil {
 		return fmt.Errorf("event.DataAs: %w", err)

@@ -1,10 +1,12 @@
 ---
-title: "Scheduler + Pub/Sub Cloud Functions を Terraform でイイ感じに管理する"
+title: "Scheduler + Pub/Sub + Cloud Functions を Terraform でイイ感じに管理する"
 emoji: "❄️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics:
   ["googlecloud", "cloudscheduler", "pubsub", "cloudfunctions", "terraform"]
-published: false
+publication_name: "zozotech"
+published: true
+published_at: 2023-12-03 00:00
 ---
 
 ## はじめに
@@ -203,7 +205,7 @@ https://github.com/harusys/techblog/tree/main/samples/scheduler-pubsub-cloud-fun
 2. `gcloud auth application-default login`で認証をする
 3. `terraform`コマンド実行
 
-ただし、現状ではTerraform実行・ステート管理がローカル依存となっているので、実際にチームで運用する場合には、以下のような対応が追加で必要になるでしょう。この辺りは、また別の記事でぼちぼち紹介します。
+ただし、現状ではTerraform実行・ステート管理がローカル依存となっているので、実際にチームで運用する場合には、以下のような対応が追加で必要になります。この辺りは長くなってきたので、また別の記事でぼちぼち書いていきます。
 
 - Terraform Cloudを導入する
 - ステートをCloud Storageに保存する + 実行はサービスアカウントを利用する
