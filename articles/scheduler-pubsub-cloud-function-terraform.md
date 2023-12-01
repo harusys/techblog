@@ -9,6 +9,10 @@ published: true
 published_at: 2023-12-03 00:00
 ---
 
+:::message
+本記事は、[ZOZO Advent Calendar 2023](https://qiita.com/advent-calendar/2023/zozo) シリーズ8の3日目の記事です。
+:::
+
 ## はじめに
 
 Cloud Functionsで軽量なバッチシステムを構築していたところ、システムを構成するリソースが多く、手動管理に限界を感じてTerraformを導入しました。

@@ -8,6 +8,10 @@ published: true
 published_at: 2023-12-02 00:00
 ---
 
+:::message
+本記事は、[ZOZO Advent Calendar 2023](https://qiita.com/advent-calendar/2023/zozo) シリーズ9の2日目の記事です。
+:::
+
 ## はじめに
 
 BigQueryのクエリ結果を定期的にSlack投稿するソリューションは様々あります。
