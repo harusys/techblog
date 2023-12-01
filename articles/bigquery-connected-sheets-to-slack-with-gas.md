@@ -91,7 +91,7 @@ ORDER BY
 
 Workflow Builderは、端的に言えばiPaaSのひとつで、様々なアクションをワークフロー化して実行できる機能です。また、定義したワークフローをWebhookで実行できます。
 
-https://slack.com/intl/ja-jp/help/articles/360041352714-Webhook-で開始するワークフローを作成する
+https://slack.com/intl/ja-jp/help/articles/360041352714-Webhook-%E3%81%A7%E9%96%8B%E5%A7%8B%E3%81%99%E3%82%8B%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B
 
 今回は作成日時とメッセージを受け取って、Slackにメッセージを送信するワークフローを作成したいので、以下のように設定します。
 
