@@ -5,7 +5,7 @@
         "editor.formatOnPaste": true
     },
     "editor.codeActionsOnSave": {
-        "source.fixAll.markdownlint": true
+        "source.fixAll.markdownlint": "explicit"
     },
     "textlint.autoFixOnSave": true,
     "textlint.configPath": "config/.textlintrc.yml",
