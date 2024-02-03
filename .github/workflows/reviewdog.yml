@@ -34,7 +34,7 @@ jobs:
         run: npm install
 
       - name: Set up reviewdog
-        uses: reviewdog/action-setup@154bb4214db7d87bdb814a346ec67b3472fe1c5f # v1
+        uses: reviewdog/action-setup@4ada0d03764db369df4069af8fbc514388a3e4fe # v1
         with:
           reviewdog_version: latest
 
