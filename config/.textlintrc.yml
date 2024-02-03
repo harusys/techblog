@@ -19,6 +19,9 @@ rules:
     ja-no-mixed-period:
       allowPeriodMarks:
         - ":" # Zenn 独自 message 用
-
+    no-mix-dearu-desumasu:
+      preferInHeader": ""
+      preferInBody": ""
+      preferInList": ""
   # https://github.com/textlint-rule/textlint-rule-no-dead-link
   no-dead-link: true
