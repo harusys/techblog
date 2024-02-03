@@ -1,6 +1,6 @@
 module github.com/harusys/techblog/samples/pubsub-cloud-function-terraform/helloworld
 
-go 1.21.5
+go 1.21.6
 
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.0
