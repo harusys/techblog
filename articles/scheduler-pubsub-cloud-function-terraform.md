@@ -216,4 +216,4 @@ https://github.com/harusys/techblog/tree/main/samples/scheduler-pubsub-cloud-fun
 
 最後になりますが、Terraformコードの書き方に悩んだ際には、Google Cloud公式がガイドラインを出してくれていますので、参考にしてみてください。
 
-https://cloud.google.com/docs/terraform/best-practices-for-terraform
+https://cloud.google.com/docs/terraform/best-practices/general-style-structure
