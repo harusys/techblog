@@ -15,23 +15,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
 
-      - name: Set up node
-        uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
+      - name: Set up bun
+        uses: oven-sh/setup-bun@123c6c4e2fea3eb7bffaa91a85eb6b3d505bf7af # v2
         with:
-          node-version: latest
+          bun-version: latest
 
       - name: Cache
-        uses: actions/cache@ab5e6d0c87105b4c9c2047343972218f562e4319 # v4
+        uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4
         with:
           path: |
-            ~/.npm
-            **/node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+            ~/.bun
+            **/bun.lockb
+          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lockb') }}
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-bun-
 
-      - name: Install node dependencies
-        run: npm install
+      - name: Install bun dependencies
+        run: bun install
 
       - name: Set up reviewdog
         uses: reviewdog/action-setup@3f401fe1d58fe77e10d665ab713057375e39b887 # v1

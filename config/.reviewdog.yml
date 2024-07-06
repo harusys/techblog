@@ -1,9 +1,9 @@
 runner:
   textlint:
-    cmd: npx textlint -c config/.textlintrc.yml -f checkstyle 'articles/**.md'
+    cmd: bun x textlint -c config/.textlintrc.yml -f checkstyle 'articles/**.md'
     format: checkstyle
   markdownlint:
-    cmd: npx markdownlint-cli2 --config config/.markdownlint-cli2.jsonc 'articles/**.md'
+    cmd: bun x markdownlint-cli2 --config config/.markdownlint-cli2.jsonc 'articles/**.md'
     errorformat:
       - "%f:%l:%c %m"
       - "%f:%l %m"
