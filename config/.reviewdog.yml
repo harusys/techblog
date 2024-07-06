@@ -1,6 +1,6 @@
 runner:
   textlint:
-    cmd: npx textlint -c config/.textlintrc -f checkstyle 'articles/**.md'
+    cmd: npx textlint -c config/.textlintrc.yml -f checkstyle 'articles/**.md'
     format: checkstyle
   markdownlint:
     cmd: npx markdownlint-cli2 --config config/.markdownlint-cli2.jsonc 'articles/**.md'
