@@ -1,6 +1,7 @@
 {
   "config": {
     "MD013": false, // 文字数はtextlintでチェック
+    "MD024": false, // 同名の見出しは許容
     "MD034": false, // GitHub リンク表示用
     "MD040": false // コードブロックの言語指定なしを許可
   }
