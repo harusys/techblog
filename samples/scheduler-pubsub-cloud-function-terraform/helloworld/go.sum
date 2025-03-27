@@ -767,6 +767,8 @@ github.com/GoogleCloudPlatform/functions-framework-go v1.9.0 h1:Fq0sKuCyyFFVFm1r
 github.com/GoogleCloudPlatform/functions-framework-go v1.9.0/go.mod h1:8Ww7VHPCGKqCfZOCT9INIiakNgGQPGRfL4U4yy5F5Kc=
 github.com/GoogleCloudPlatform/functions-framework-go v1.9.1 h1:Cw4HmcFbxhyTR8x4jITuvkYRbSkM1mWaWBHWfeQuATE=
 github.com/GoogleCloudPlatform/functions-framework-go v1.9.1/go.mod h1:W7quj+JS4BdX3NEeMvf5t2aTSrxe9mNmB1N9YwaFV+I=
+github.com/GoogleCloudPlatform/functions-framework-go v1.9.2 h1:Cev/PdoxY86bJjGwHJcpiWMhrZMVEoKp9wuEp9gCUvw=
+github.com/GoogleCloudPlatform/functions-framework-go v1.9.2/go.mod h1:wLEV4uSJztSBI+QyUy2fkHBuGFjRIAEDOqcEQ2hwmgE=
 github.com/JohnCGriffin/overflow v0.0.0-20211019200055-46fa312c352c/go.mod h1:X0CRv0ky0k6m906ixxpzmDRLvX58TFUKS2eePweuyxk=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/ajstarks/deck v0.0.0-20200831202436-30c9fc6549a9/go.mod h1:JynElWSGnm/4RlzPXRlREEwqTHAN3T56Bv2ITsFT3gY=
