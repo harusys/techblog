@@ -3,7 +3,7 @@ module github.com/harusys/techblog/samples/pubsub-cloud-function-terraform/hello
 go 1.22.0
 
 require (
-	github.com/GoogleCloudPlatform/functions-framework-go v1.9.1
+	github.com/GoogleCloudPlatform/functions-framework-go v1.9.2
 	github.com/cloudevents/sdk-go/v2 v2.15.2
 )
 
