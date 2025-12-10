@@ -126,7 +126,7 @@ GROUP BY
 | 1         | 3        | テスト1 テスト2 テスト3 |
 | 2         | 2        | コメント1 コメント1     |
 
-これは特にスプレッドシートの [Connected Sheets](https://cloud.google.com/bigquery/docs/connected-sheets) 機能と合わせ技でよく利用しました。`STRING_AGG(colomn, '\n')` と改行区切りにすることで、複数の行を1つのセルにまとめることができます。
+これは特にスプレッドシートの [Connected Sheets](https://docs.cloud.google.com/bigquery/docs/connected-sheets) 機能と合わせ技でよく利用しました。`STRING_AGG(column, '\n')` と改行区切りにすることで、複数の行を1つのセルにまとめることができます。
 
 ## 行列を入れ替える [ PIVOT ]
 
@@ -177,4 +177,4 @@ FROM
 
 今回は筆者自身お世話になり、わりと汎用的なBigQueryクエリを3つ紹介しました。たまに公式ドキュメントを見ると新たな発見があって面白いですね。
 
-https://cloud.google.com/bigquery/docs/reference/standard-sql/functions-all
+https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/functions-all
