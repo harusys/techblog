@@ -4,5 +4,6 @@
     "config:best-practices",
     ":timezone(Asia/Tokyo)",
     ":automergeDisabled"
-  ]
+  ],
+  "ignorePaths": ["examples/**"]
 }
