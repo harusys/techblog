@@ -107,7 +107,7 @@ https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/c
 
 https://docs.cloud.google.com/run/docs/configuring/services/secrets
 
-Cloud Functionsに限った話ではありませんが、環境変数は機密情報の格納先に適していません。
+Cloud Functionsに限った話ではありませんが、環境変数は機密情報の格納先に適していません。[^env-var]
 そのため、機密情報はSecret Managerで管理するようテンプレートを変更したいです。
 
 これを実現する詳細な手順は上記のドキュメントに記載されていますが、ここではTerraformを用いて実行していきます。
