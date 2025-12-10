@@ -39,7 +39,7 @@ https://techblog.zozo.com/entry/bq-to-slack-with-nocode
 まずは、BigQueryからのデータ取得には、`Connected Sheets`を利用します。
 これにより、BigQueryの実行結果をGoogle Sheets（スプレッドシート）に簡単に出力できます。
 
-https://cloud.google.com/bigquery/docs/connected-sheets
+https://docs.cloud.google.com/bigquery/docs/connected-sheets
 
 また、スケジュールされた更新オプションにより、定期的にデータを更新できます。
 ただし、Connected Sheetsの定期実行はいくつかサービスとしての制約がある点に注意が必要です。
