@@ -41,7 +41,7 @@ Google Cloud公式チュートリアルを参考に導入したものの、あ�
 
 ![architecture](/images/articles/scheduler-pubsub-cloud-function-terraform/architecture.drawio.png)
 
-https://cloud.google.com/functions/docs/deploy#from-cloud-storage
+https://docs.cloud.google.com/functions/docs/deploy#from-cloud-storage
 
 :::message
 ※1:
@@ -59,7 +59,7 @@ Cloud Functionsのデプロイにはいくつか手法がありますが、代�
 
 ## テンプレート
 
-https://cloud.google.com/functions/docs/tutorials/terraform-pubsub
+https://docs.cloud.google.com/functions/docs/tutorials/terraform-pubsub
 
 はじめに、Google Cloud公式チュートリアルで出来ることを確認しておきます。
 また、以降は公式チュートリアルのTerraformコードを「テンプレート」と呼称します。
@@ -105,7 +105,7 @@ https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/c
 
 ### 機密情報はSecret Managerで管理する
 
-https://cloud.google.com/run/docs/configuring/services/secrets
+https://docs.cloud.google.com/run/docs/configuring/services/secrets
 
 Cloud Functionsに限った話ではありませんが、環境変数は機密情報の格納先に適していません。
 そのため、機密情報はSecret Managerで管理するようテンプレートを変更したいです。
@@ -137,6 +137,12 @@ resource "google_cloudfunctions2_function" "default" {
   }
 }
 ```
+
+[^env-var]:
+    環境変数は関数の構成に使用できますが、データベースの認証情報やAPIキーなどの機密情報の格納には適しません。 このような機密性の高い値は、ソースコードや外部の環境変数以外の場所に保存する必要があります。
+    (中略)
+    シークレットを保存するには、Secret Managerを使用することをおすすめします。
+    https://docs.cloud.google.com/run/docs/configuring/services/environment-variables#managing_secrets
 
 ### ソースコードの変更を検知する
 
@@ -192,7 +198,7 @@ data "archive_file" "default" {
 
 ## まとめ
 
-https://github.com/harusys/techblog/tree/main/samples/scheduler-pubsub-cloud-function-terraform/terraform
+https://github.com/harusys/techblog/tree/main/examples/scheduler-pubsub-cloud-function-terraform/terraform
 
 最終的にできたTerraformコードはこちらになります。
 本記事での主軸ではないので割愛していますが、同じ構成のバッチシステムが増えた時に再利用しやすいよう、変数ファイルは分離しています。
@@ -210,4 +216,4 @@ https://github.com/harusys/techblog/tree/main/samples/scheduler-pubsub-cloud-fun
 
 最後になりますが、Terraformコードの書き方に悩んだ際には、Google Cloud公式がガイドラインを出してくれていますので、参考にしてみてください。
 
-https://cloud.google.com/docs/terraform/best-practices/general-style-structure
+https://docs.cloud.google.com/docs/terraform/best-practices/general-style-structure
